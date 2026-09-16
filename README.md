@@ -31,7 +31,7 @@ The goal wasn't just to report numbers — it was to structure the data so three
 Five headline numbers pulled from PivotTables: **14.4K** total loans, **$169.0M** total funded, **$183.5M** total received, **12.30%** average interest rate, and **13.35%** average debt-to-income ratio. This is the summary a reader sees before drilling into anything else.
 
 ### Good Loan vs. Bad Loan, and Average Interest Rate by Status
-![Good vs Bad Loan and Average Interest Rate](Project/images/Good_vs_Bad_Loan___Avg_Interest_Rates.PNG)
+![Good vs Bad Loan and Average Interest Rate](Project/images/Good%20vs%20Bad%20Loan%20and%20Avg%20Interest%20Rates.PNG)
 
 The core risk split, built as a two-column PivotTable: **79%** of loans (11.6K applications, $132.1M funded, $156.0M received) are "Good" — Current or Fully Paid. **21%** (2.8K applications, $37.0M funded, $27.5M received) are "Bad" — Charged Off. Next to it, average interest rate by status: Charged Off 14%, Current 15%, Fully Paid 12%.
 
