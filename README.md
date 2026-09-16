@@ -56,7 +56,6 @@ The dashboard sits on top of a row-level loan table: Loan_Id, Address_State, Emp
 Put together, the visuals actually undercut the intuitive story. You'd expect Charged Off loans to carry the highest interest rates, since risk is supposed to be priced in — but here, Charged Off loans average **14%**, while loans still Current average **15%**, and only Fully Paid loans sit meaningfully lower at **12%**. That's a real signal: the loans that eventually went bad weren't priced as the riskiest ones in the book. Rate alone doesn't predict default here.
 
 Where the risk actually shows up is in the mix, not the price: Debt Consolidation and Credit Card purposes dominate volume by a wide margin, 36-month terms make up two-thirds of the book, and the employment-length distribution is heaviest at the two extremes (under 1 year, and 10+ years) with a dip in between. Cross-filtering by Grade, Purpose, and Loan Status (using the Slicers) is how you'd actually isolate where that 21% "bad loan" bucket concentrates — the dashboard is built so that question can be answered interactively rather than guessed at.
-
 ---
 
 ## Q&A
